@@ -26,7 +26,7 @@
             <Label x:Name="lblSaluto" Text="Inserisci il secondo numero" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="LightBlue" />
         <Entry x:Name="txtNum2" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="3" />
         <Button x:Name="btnSomma" Text="Somma!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Yellow" Margin="5" Grid.Row="4" Grid.Column="0"  />
-        <Label x:Name="lblRisultato" Text="Risultato" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="LightBlue" />
+        <Label x:Name="lblRisultato" Text="Risultato2" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="LightBlue" />
 
         <Button x:Name="btnSomma1" Text="Thread" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Yellow" Margin="5" Grid.Row="5" Grid.Column="0"  />
 
