@@ -12,6 +12,17 @@ namespace Test1
         public MainPage()
         {
             InitializeComponent();
+            
+        }
+
+        void OnButtonClicked(object sender, Exception args)
+        {
+            lblSaluto.Text = "Buongiorno";
+            int a = Convert.ToInt32(txtNum1.Text);
+            int b = Convert.ToInt32(txtNum1.Text);
+            Calc c = new Calc();
+            int resp = c.Add(a, b);
+            lblRisultato.Text = resp.ToString();
         }
     }
 }
