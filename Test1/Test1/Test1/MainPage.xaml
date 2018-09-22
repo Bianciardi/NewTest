@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Test1"
+             x:Class="Test1.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lblSaluto" Text="La mia prima App!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="LightBlue" />
+        <Label x:Name="lblSaluto" Text="Inserisci il primo numero" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="LightBlue" />
+        <Entry x:Name="txtNum1" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="2" Grid.Column="3" />
+            <Label x:Name="lblSaluto" Text="Inserisci il secondo numero" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="LightBlue" />
+        <Entry x:Name="txtNum2" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="3" />
+        <Button x:Name="btnSomma" Text="Somma!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Yellow" Margin="5" Grid.Row="4" Grid.Column="0"  />
+        <Label x:Name="lblRisultato" Text="Risultato" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="LightBlue" />
+
+        <Button x:Name="btnSomma1" Text="Thread" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Yellow" Margin="5" Grid.Row="5" Grid.Column="0"  />
+
+    </Grid>
+
+
+</ContentPage>
